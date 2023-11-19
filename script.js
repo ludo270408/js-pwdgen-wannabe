@@ -4,8 +4,7 @@ let cognome = prompt('Inserisci il tuo cognome: ');
 
 let colore_preferito = prompt('Inserisci il tuo colore preferito: ');
 
-let password = 'Questa è la tua password: $(nome)$(cognome)$(colore_preferito)23 . attento a non fartela rubare ;)';
+let password = nome + cognome + rosso + '23'
 
-document.getElementById('subtitle').innerHTML = password;
+document.getElementById('subtitle'). innerHTML = password;
 
-console.log('password')
